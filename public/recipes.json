@@ -1,0 +1,99 @@
+[
+    {
+      "recipe_id": 1,
+      "recipe_name": "Spaghetti Carbonara",
+      "recipe_image": "https://i.ibb.co/KyhW8Dw/carbonara-horizontal-video-Small-v2.jpg",
+      "short_description": "A classic Italian pasta dish with creamy sauce, pancetta, and Parmesan cheese.",
+      "ingredients": [
+        "200g spaghetti",
+        "100g pancetta or bacon, diced",
+        "2 large eggs",
+        "50g grated Parmesan cheese",
+        "2 cloves garlic, minced",
+        "Salt and black pepper to taste"
+      ],
+      "preparing_time": 30,
+      "calories": "450 kcal"
+    },
+    {
+      "recipe_id": 2,
+      "recipe_name": "Chicken Tikka Masala",
+      "recipe_image": "https://i.ibb.co/b1jb1nP/delish-chicken-tikka-masala-jpg-1526059261.jpg",
+      "short_description": "A popular Indian dish with tender chicken marinated in yogurt and spices, served in a creamy tomato sauce.",
+      "ingredients": [
+        "500g boneless chicken, cut into cubes",
+        "1 cup plain yogurt",
+        "3 tablespoons Tikka Masala spice blend",
+        "2 tablespoons vegetable oil",
+        "1 onion, finely chopped",
+        "3 cloves garlic, minced"
+      ],
+      "preparing_time": 45,
+      "calories": "550 kcal"
+    },
+    {
+      "recipe_id": 3,
+      "recipe_name": "Caprese Salad",
+      "recipe_image": "https://i.ibb.co/w7zn36H/classic-caprese-salad-recipe-hero-05-1-9ce2f9b0601c45279e07320f9548fa66.jpg",
+      "short_description": "A refreshing Italian salad made with ripe tomatoes, fresh mozzarella, basil, and balsamic glaze.",
+      "ingredients": [
+        "2 large tomatoes, sliced",
+        "200g fresh mozzarella cheese, sliced",
+        "1/4 cup fresh basil leaves",
+        "2 tablespoons balsamic glaze",
+        "2 tablespoons extra virgin olive oil",
+        "Salt and pepper to taste"
+      ],
+      "preparing_time": 15,
+      "calories": "250 kcal"
+    },
+    {
+      "recipe_id": 4,
+      "recipe_name": "Beef Stir-Fry",
+      "recipe_image": "https://i.ibb.co/x1MKrtg/l-intro-1650471286.jpg",
+      "short_description": "A quick and flavorful Asian-inspired dish with tender beef, colorful vegetables, and savory sauce.",
+      "ingredients": [
+        "400g beef sirloin, thinly sliced",
+        "2 tablespoons soy sauce",
+        "2 tablespoons oyster sauce",
+        "1 tablespoon cornstarch",
+        "2 tablespoons vegetable oil",
+        "1 onion, sliced"
+      ],
+      "preparing_time": 25,
+      "calories": "400 kcal"
+    },
+    {
+      "recipe_id": 5,
+      "recipe_name": "Vegetable Curry",
+      "recipe_image": "https://i.ibb.co/ssjyNvf/download.jpg",
+      "short_description": "A hearty vegetarian curry with an array of colorful vegetables simmered in aromatic spices and coconut milk.",
+      "ingredients": [
+        "2 tablespoons vegetable oil",
+        "1 onion, diced",
+        "2 cloves garlic, minced",
+        "1 tablespoon grated ginger",
+        "2 tablespoons curry powder",
+        "1 can (400ml) coconut milk"
+      ],
+      "preparing_time": 40,
+      "calories": "300 kcal"
+    },
+    {
+      "recipe_id": 6,
+      "recipe_name": "Chocolate Lava Cake",
+      "recipe_image": "https://i.ibb.co/f9P5sSc/molten-chocolate-cake-FT-RECIPE0220-0a33d7d0ab0c45588f7bfe742d33a9bc.jpg",
+      "short_description": "An indulgent dessert with a gooey chocolate center, served warm and topped with vanilla ice cream.",
+      "ingredients": [
+        "100g dark chocolate",
+        "1/2 cup unsalted butter",
+        "1/4 cup all-purpose flour",
+        "1/2 cup powdered sugar",
+        "2 eggs",
+        "2 egg yolks"
+      ],
+      "preparing_time": 20,
+      "calories": "350 kcal"
+    }
+  ]
+  
