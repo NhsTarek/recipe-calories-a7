@@ -18,7 +18,7 @@
     {
       "recipe_id": 2,
       "recipe_name": "Chicken Tikka Masala",
-      "recipe_image": "https://i.ibb.co/b1jb1nP/delish-chicken-tikka-masala-jpg-1526059261.jpg",
+      "recipe_image": "https://i.ibb.co/JQffzy1/33meqsb-chicken-tikka-625x300-08-July-22.png",
       "short_description": "A popular Indian dish with tender chicken marinated in yogurt and spices, served in a creamy tomato sauce.",
       "ingredients": [
         "500g boneless chicken, cut into cubes",
@@ -34,7 +34,7 @@
     {
       "recipe_id": 3,
       "recipe_name": "Caprese Salad",
-      "recipe_image": "https://i.ibb.co/w7zn36H/classic-caprese-salad-recipe-hero-05-1-9ce2f9b0601c45279e07320f9548fa66.jpg",
+      "recipe_image": "https://i.ibb.co/5GC9LPk/610x350-Photo-10-699-How-to-Make-CAPRESE-SALAD-Like-an-Italian-V1.jpg",
       "short_description": "A refreshing Italian salad made with ripe tomatoes, fresh mozzarella, basil, and balsamic glaze.",
       "ingredients": [
         "2 large tomatoes, sliced",
@@ -66,7 +66,7 @@
     {
       "recipe_id": 5,
       "recipe_name": "Vegetable Curry",
-      "recipe_image": "https://i.ibb.co/ssjyNvf/download.jpg",
+      "recipe_image": "https://i.ibb.co/grqPCc8/Creamy-vegetable-curry-4.jpg",
       "short_description": "A hearty vegetarian curry with an array of colorful vegetables simmered in aromatic spices and coconut milk.",
       "ingredients": [
         "2 tablespoons vegetable oil",
@@ -82,7 +82,7 @@
     {
       "recipe_id": 6,
       "recipe_name": "Chocolate Lava Cake",
-      "recipe_image": "https://i.ibb.co/f9P5sSc/molten-chocolate-cake-FT-RECIPE0220-0a33d7d0ab0c45588f7bfe742d33a9bc.jpg",
+      "recipe_image": "https://i.ibb.co/5xnwPrz/lava-cake-1.jpg",
       "short_description": "An indulgent dessert with a gooey chocolate center, served warm and topped with vanilla ice cream.",
       "ingredients": [
         "100g dark chocolate",
