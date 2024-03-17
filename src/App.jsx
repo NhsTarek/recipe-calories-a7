@@ -1,14 +1,15 @@
 
 import './App.css'
+import Header from './Components/Header/Header'
 
 function App() {
   
 
   return (
     <>
-      <div>
-        <h2 className='text-2xl'>Assignment-7</h2>
-      </div>
+      <main className='max-w-7xl mx-auto'>
+       <Header></Header>
+      </main>
     </>
   )
 }
