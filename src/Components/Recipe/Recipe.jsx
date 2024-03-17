@@ -2,8 +2,7 @@ import { CiClock2 } from "react-icons/ci";
 import { GoFlame } from "react-icons/go";
 
 
-const Recipe = ({ recipe }) => {
-    console.log(recipe);
+const Recipe = ({ recipe, handleCock }) => {
     const { recipe_name, recipe_image, short_description, ingredients, preparing_time, calories } = recipe;
     return (
 
@@ -32,7 +31,10 @@ const Recipe = ({ recipe }) => {
                     </div>
                     
                 </div>
-                <button className="bg-[#0BE58A] text-[#150B2B] font-medium rounded-full py-4 mx-20">Want to Cook</button>
+                <button 
+                onClick={() => handleCock(recipe)}
+                className="bg-[#0BE58A] text-[#150B2B] font-medium rounded-full py-4 mx-20">Want to Cook
+                </button>
             </div>
         </div>
 
