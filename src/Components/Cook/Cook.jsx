@@ -48,11 +48,13 @@ const Cook = ({ cock, handlePrepare, newcock }) => {
                          key={cock.recipe_id} 
                          ></Newcock>)
                     }
-                    <div className="my-5">
+                      <div className="my-5">
                         <h6>Total Time =</h6>
                         <h6>Total Calories =</h6>
                     </div>
+                   
                 </div>
+                
 
             </div>
         </div>

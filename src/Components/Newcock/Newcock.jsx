@@ -2,7 +2,9 @@ const Newcock = ({newcock,index}) => {
     const { recipe_name, preparing_time, calories, recipe_id } = newcock;
     return (
         <div>
+            
             <div className="overflow-x-auto">
+            
                 <table className="table">
                 <tbody>
                         {/* row 1 */}
@@ -16,7 +18,10 @@ const Newcock = ({newcock,index}) => {
                     </tbody> 
                     
                 </table>
+                
             </div>
+            
+           
         </div>
     );
 };
