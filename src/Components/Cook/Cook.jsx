@@ -5,7 +5,7 @@ import Newcock from "../Newcock/Newcock";
 
 const Cook = ({ cock, handlePrepare, newcock }) => {
     return (
-        <div className="md:1/3 text-center rounded-xl shadow-xl">
+        <div className="md:1/3 text-center rounded-xl shadow-xl my-5">
             <h2 className="text-[#282828] font-semibold text-2xl">Want to cook: {cock.length}</h2>
             <div className="overflow-x-auto">
                 <table className="table">
@@ -28,7 +28,7 @@ const Cook = ({ cock, handlePrepare, newcock }) => {
                 ></Cocks>)
             }
             <div>
-                <h2 className="text-[#282828] font-semibold text-2xl my-2">Currently    Cooking: {newcock.length}</h2>
+                <h2 className="text-[#282828] font-semibold text-2xl my-2 mx-2">Currently    Cooking: {newcock.length}</h2>
                 <div className="overflow-x-auto my-2">
                     <table className="table">
                         {/* head */}
