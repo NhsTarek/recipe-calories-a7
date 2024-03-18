@@ -2,7 +2,7 @@ import { CiClock2 } from "react-icons/ci";
 import { GoFlame } from "react-icons/go";
 
 
-const Recipe = ({ recipe, handleCock,cock }) => {
+const Recipe = ({ recipe, handleCock }) => {
     const { recipe_name, recipe_image, short_description, ingredients, preparing_time, calories } = recipe;
     
 
