@@ -9,11 +9,14 @@ import Section from './Components/Section/Section'
 
 
 function App() {
+
   const [cock, setCock] = useState([]);
-  const handleCock = recipe =>{
+  const handleCock = recipe => {
     const newCock = [...cock, recipe];
     setCock(newCock);
-  }
+  };
+
+
 
 
   return (

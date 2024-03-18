@@ -5,7 +5,7 @@ import Recipe from "../Recipe/Recipe";
 const Recipes = ({handleCock}) => {
     const [recipes, setRecipes] = useState([]);
     useEffect(() => {
-        fetch('recipes.json')
+        fetch("./recipes.json")
             .then(res => res.json())
             .then(data => setRecipes(data))
     }, [])

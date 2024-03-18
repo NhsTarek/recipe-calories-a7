@@ -3,7 +3,6 @@ import Cocks from "../Cocks/Cocks";
 
 
 const Cook = ({ cock }) => {
-    const number = cock.length;
     return (
         <div className="md:1/3 text-center">
             <h2 className="text-[#282828] font-semibold text-2xl">Want to cook: {cock.length}</h2>
@@ -21,7 +20,7 @@ const Cook = ({ cock }) => {
                 </table>
             </div>
             {
-                cock.map(cock => <Cocks key={cock.id} cocks={cock} number={number}></Cocks>)
+                cock.map(cock => <Cocks key={cock.id} cocks={cock}></Cocks>)
             }
             
         </div>
