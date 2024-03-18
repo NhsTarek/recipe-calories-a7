@@ -5,7 +5,7 @@ import Newcock from "../Newcock/Newcock";
 
 const Cook = ({ cock, handlePrepare, newcock }) => {
     return (
-        <div className="md:1/3 text-center">
+        <div className="md:1/3 text-center rounded-xl shadow-xl">
             <h2 className="text-[#282828] font-semibold text-2xl">Want to cook: {cock.length}</h2>
             <div className="overflow-x-auto">
                 <table className="table">

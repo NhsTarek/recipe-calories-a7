@@ -17,7 +17,7 @@ const Recipes = ({handleCock,cock}) => {
 
     return (
         <div className="md:w-2/3">
-            <h2 className="text-4xl">Recipes: {recipes.length}</h2>
+            {/* <h2 className="text-4xl">Recipes: {recipes.length}</h2> */}
             <div className="grid lg:grid-cols-2 gap-2">
 
 
