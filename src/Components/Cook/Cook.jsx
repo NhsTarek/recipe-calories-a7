@@ -2,10 +2,10 @@ import Cocks from "../Cocks/Cocks";
 
 
 
-const Cook = ({ cock }) => {
+const Cook = ({ cock,handlePrepare,newcock }) => {
     return (
         <div className="md:1/3 text-center">
-            <h2 className="text-[#282828] font-semibold text-2xl">Want to cook: {cock.length}</h2>
+             <h2 className="text-[#282828] font-semibold text-2xl">Want to cook: {cock.length}</h2>
             <div className="overflow-x-auto">
                 <table className="table">
                     {/* head */}
@@ -20,12 +20,16 @@ const Cook = ({ cock }) => {
                 </table>
             </div>
             {
-                cock.map((cock,index) => <Cocks key={cock.recipe_id} cocks={cock} index={index}></Cocks>)
+                cock.map((cock,index) => <Cocks 
+                key={cock.recipe_id} 
+                cocks={cock} index={index}
+                handlePrepare={handlePrepare}
+                ></Cocks>)
             }
             <div>
-            <h2 className="text-[#282828] font-semibold text-2xl my-2">Currently Cooking:</h2>
+             <h2 className="text-[#282828] font-semibold text-2xl my-2">Currently     Cooking: {newcock.length}</h2>
                 <div className="overflow-x-auto my-2">
-                <table className="table">
+                 <table className="table">
                     {/* head */}
                     <thead>
                         <tr>
@@ -41,7 +45,7 @@ const Cook = ({ cock }) => {
                         <h6>Total Calories =</h6>
                     </div>
                 </div>
-
+        
             </div>
         </div>
     );

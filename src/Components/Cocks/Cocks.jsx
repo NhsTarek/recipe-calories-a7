@@ -1,6 +1,6 @@
 
 
-const Cocks = ({ cocks,index }) => {
+const Cocks = ({ cocks,index,handlePrepare,newcocks }) => {
     const { recipe_name, preparing_time, calories, recipe_id } = cocks;
     return (
         <div>
@@ -14,7 +14,7 @@ const Cocks = ({ cocks,index }) => {
                             <td>{recipe_name}</td>
                             <td>{preparing_time} Minutes</td>
                             <td>{calories}</td>
-                            <td><button className="bg-[#0BE58A] rounded-full p-5">Preparing</button></td>
+                            <td><button onClick={() =>handlePrepare(cocks.recipe_id)} className="bg-[#0BE58A] rounded-full p-5">Preparing</button></td>
                         </tr>
                     </tbody> 
                     
