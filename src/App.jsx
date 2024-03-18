@@ -21,7 +21,6 @@ function App() {
         toast("This recipe is already in your list.");
     }
 };
-
   
   
 

@@ -1,6 +1,6 @@
 
 
-const Cocks = ({ cocks }) => {
+const Cocks = ({ cocks,index }) => {
     const { recipe_name, preparing_time, calories, recipe_id } = cocks;
     return (
         <div>
@@ -10,7 +10,7 @@ const Cocks = ({ cocks }) => {
                         {/* row 1 */}
                         
                         <tr className="bg-base-200 py-2">
-                            <th>{recipe_id}</th>
+                            <th>{index+1}</th>
                             <td>{recipe_name}</td>
                             <td>{preparing_time} Minutes</td>
                             <td>{calories}</td>

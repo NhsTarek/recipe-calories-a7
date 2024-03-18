@@ -20,10 +20,10 @@ const Cook = ({ cock }) => {
                 </table>
             </div>
             {
-                cock.map(cock => <Cocks key={cock.recipe_id} cocks={cock}></Cocks>)
+                cock.map((cock,index) => <Cocks key={cock.recipe_id} cocks={cock} index={index}></Cocks>)
             }
             <div>
-                <h2 className="text-[#282828] font-semibold text-2xl my-2">Currently Cooking:</h2>
+            <h2 className="text-[#282828] font-semibold text-2xl my-2">Currently Cooking:</h2>
                 <div className="overflow-x-auto my-2">
                 <table className="table">
                     {/* head */}
@@ -35,13 +35,13 @@ const Cook = ({ cock }) => {
                         </tr>
                     </thead>
 
-                </table>
-                <div className="my-5">
-                <h6>Total Time =</h6>
-                <h6>Total Calories =</h6>
+                    </table>
+                    <div className="my-5">
+                        <h6>Total Time =</h6>
+                        <h6>Total Calories =</h6>
+                    </div>
                 </div>
-            </div>
-            
+
             </div>
         </div>
     );
